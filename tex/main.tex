@@ -1,0 +1,16 @@
+\documentclass[a4paper,12pt,titlepage]{article}
+\usepackage{frontespizio}
+\usepackage{url}
+\bibliographystyle{lucas_unsrt}
+
+% rubber: onchange main-frn.tex 'pdflatex main-frn && pdftops -eps main-frn.pdf'
+% rubber: watch main-frn.tex
+
+\begin{document}
+
+\input{title}
+\tableofcontents
+\input{thesis}
+\bibliography{main}
+
+\end{document}
