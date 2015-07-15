@@ -19,7 +19,7 @@ cp -r "$IMG_DIR" "$TMP_DIR"/
 if [ -d "$MY_THESIS_DIR" ] ; then
     cp -r "$MY_THESIS_DIR"/"$TEX_DIR"/* "$TMP_DIR"/
     find "$MY_THESIS_DIR" -maxdepth 1 ! -name "$TEX_DIR" ! -name "$MY_THESIS_DIR" ! -name "$PDF_DIR" ! -name ".*" \
-         -exec cp -r '{}' "$TMP_DIR"/
+         -exec cp -r '{}' "$TMP_DIR"/ \;
 fi
 
 cd "$TMP_DIR"
