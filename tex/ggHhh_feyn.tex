@@ -1,0 +1,20 @@
+\fmfframe(0,13)(0,13){
+\begin{fmfgraph*}(200,80)
+    \fmfleft{i1,i2}
+    \fmfright{o1,o2}
+    \fmf{gluon,tension=0.5}{i1,v1}
+    \fmf{gluon,tension=0.5}{i2,v2}
+    \fmf{fermion,label=$t,,b$,label.side=left,tension=0.1}{v1,v2}
+    \fmf{fermion}{v2,v3,v1}
+    \fmf{dashes,label=$H$}{v3,v4}
+    \fmf{dashes}{v4,o1}
+    \fmf{dashes}{v4,o2}
+    \fmflabel{$g$}{i1}
+    \fmflabel{$g$}{i2}
+    \fmflabel{$h$}{o1}
+    \fmflabel{$h$}{o2}
+    \fmfdot{v4}
+    \fmffixedy{0}{i1,v1}
+    \fmffixedy{0}{i2,v2}
+\end{fmfgraph*}
+}
