@@ -2,6 +2,16 @@
 \usepackage{frontespizio}
 \usepackage{url}
 \bibliographystyle{lucas_unsrt}
+\usepackage[top=1in, bottom=1in, left=1in, right=1in]{geometry}
+\usepackage{lineno}
+\usepackage{hyperref}
+\hypersetup{bookmarksnumbered=true, bookmarksopen=true, bookmarksopenlevel=1, colorlinks=false,
+            pdfstartview=FitH, pdfpagemode=UseOutlines, pdfpagelayout=SinglePage}
+\usepackage{ifthen}
+\usepackage{heppennames}
+\usepackage{ptdr-definitions}
+
+\input{commands}
 
 % rubber: onchange main-frn.tex 'pdflatex main-frn && pdftops -eps main-frn.pdf'
 % rubber: watch main-frn.tex
