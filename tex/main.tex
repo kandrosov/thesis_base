@@ -14,6 +14,7 @@
 
 \input{commands}
 \setlength\parindent{0pt}
+\setlength\parskip{0.5em}
 
 % rubber: onchange main-frn.tex 'pdflatex main-frn'
 % rubber: watch main-frn.tex
@@ -21,7 +22,9 @@
 \begin{document}
 
 \input{title}
+\setlength\parskip{0em}
 \tableofcontents
+\setlength\parskip{0.5em}
 \input{thesis}
 \bibliography{main}
 
