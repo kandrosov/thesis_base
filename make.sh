@@ -23,7 +23,7 @@ if [ -d "$MY_THESIS_DIR" ] ; then
 fi
 
 cd "$TMP_DIR"
-rubber -pdf "$INPUT"
+rubber --pdf "$INPUT"
 cd ..
 
 if [ -f "$OUTPUT_TMP" ] ; then
