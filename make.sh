@@ -3,6 +3,8 @@
 INPUT="main.tex"
 TMP_DIR="tmp"
 PDF_DIR="pdf"
+BIB_PATTERN="cite-*.bib"
+BIB_OUT="main.bib"
 OUTPUT_TMP="$TMP_DIR/main.pdf"
 OUTPUT="$PDF_DIR/thesis.pdf"
 TEX_DIR="tex"
@@ -23,6 +25,7 @@ if [ -d "$MY_THESIS_DIR" ] ; then
 fi
 
 cd "$TMP_DIR"
+cat $BIB_PATTERN > "$BIB_OUT"
 rubber --pdf "$INPUT"
 cd ..
 
