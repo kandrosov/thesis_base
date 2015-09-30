@@ -1,0 +1,194 @@
+% CMS-JINST
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@article{Chatrchyan:2008aa,
+      author         = "Chatrchyan, S. and others",
+      title          = "{The CMS experiment at the CERN LHC}",
+      collaboration  = "CMS",
+      journal        = "JINST",
+      volume         = "3",
+      year           = "2008",
+      pages          = "S08004",
+      doi            = "10.1088/1748-0221/3/08/S08004",
+      SLACcitation   = "%%CITATION = JINST,3,S08004;%%"
+}
+
+% LHC-JINST
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@article{Evans:2008zzb,
+      author         = "Evans, Lyndon and Bryant, Philip",
+      title          = "{LHC Machine}",
+      journal        = "JINST",
+      volume         = "3",
+      year           = "2008",
+      pages          = "S08001",
+      doi            = "10.1088/1748-0221/3/08/S08001",
+      SLACcitation   = "%%CITATION = JINST,3,S08001;%%"
+}
+
+%%Lumi Public results
+
+@article{cmslumitwiki,
+    Journal = {{http://twiki.cern.ch/twiki/bin/view/CMSPublic/LumiPublicResults}},
+    Keywords = {CMSOther},
+    author="{CMS Collaboration}",
+    Month = {Accessed March},
+    Title = {{CMS Luminosity - Public Results}},
+    Year = {2015},
+    Bdsk-Url-1 = {twiki.cern.ch/twiki/bin/view/CMSPublic/LumiPublicResults}
+}
+
+@article{Marcastel:1621583,
+      author        = "Marcastel, Fabienne",
+      title         = "{CERN's Accelerator Complex. La chaîne des
+                       accélérateurs du CERN}",
+      month         = "Oct",
+      year          = "2013",
+      reportNumber  = "OPEN-PHO-CHART-2013-001",
+      url           = "https://cds.cern.ch/record/1621583",
+      note          = "General Photo",
+}
+
+% LEP
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+@book{CERN-LEP-84-01,
+      title         = "{LEP design report}",
+      publisher     = "CERN",
+      address       = "Geneva",
+      year          = "1984",
+      url           = "http://cds.cern.ch/record/102083",
+      note          = "Copies shelved as reports in LEP, PS and SPS libraries",
+}
+
+% Tevatron
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+@article{fermilab-design-1982-01,
+      key            = "187858",
+      title          = "{Design report Tevatron 1 Project}",
+      year           = "1982",
+      reportNumber   = "FERMILAB-DESIGN-1982-01",
+      SLACcitation   = "%%CITATION = FERMILAB-DESIGN-1982-01;%%"
+}
+
+%ATLAS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+@article{Aad:2008zzm,
+      author         = "Aad, G. and others",
+      title          = "{The ATLAS Experiment at the CERN Large Hadron Collider}",
+      collaboration  = "ATLAS",
+      journal        = "JINST",
+      volume         = "3",
+      year           = "2008",
+      pages          = "S08003",
+      doi            = "10.1088/1748-0221/3/08/S08003",
+      SLACcitation   = "%%CITATION = JINST,3,S08003;%%"
+}
+
+%LHCb
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+@article{Alves:2008zz,
+      author         = "Alves, Jr., A. Augusto and others",
+      title          = "{The LHCb Detector at the LHC}",
+      collaboration  = "LHCb",
+      journal        = "JINST",
+      volume         = "3",
+      year           = "2008",
+      pages          = "S08005",
+      doi            = "10.1088/1748-0221/3/08/S08005",
+      SLACcitation   = "%%CITATION = JINST,3,S08005;%%"
+}
+
+%ALICE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+@article{Aamodt:2008zz,
+      author         = "Aamodt, K. and others",
+      title          = "{The ALICE experiment at the CERN LHC}",
+      collaboration  = "ALICE",
+      journal        = "JINST",
+      volume         = "3",
+      year           = "2008",
+      pages          = "S08002",
+      doi            = "10.1088/1748-0221/3/08/S08002",
+      SLACcitation   = "%%CITATION = JINST,3,S08002;%%"
+}
+
+%%%total inelastic cross section
+@article{Antchev:2013paa,
+      author         = "Antchev, G. and others",
+      title          = "{Luminosity-Independent Measurement of the Proton-Proton
+                        Total Cross Section at $\sqrt{s}=8$  TeV}",
+      collaboration  = "TOTEM",
+      journal        = "Phys. Rev. Lett.",
+      volume         = "111",
+      year           = "2013",
+      number         = "1",
+      pages          = "012001",
+      doi            = "10.1103/PhysRevLett.111.012001",
+      reportNumber   = "TOTEM-2012-005, CERN-PH-EP-2012-354",
+      SLACcitation   = "%%CITATION = PRLTA,111,012001;%%"
+}
+
+<<<<<<< HEAD
+
+=======
+>>>>>>> 02e061b653239fa73a7208bb9ab00a17e4a23f09
+%%% CMS magnet
+
+@article{Acquistapace:1997fm,
+      author         = "Acquistapace, G. and others",
+      title          = "{CMS, the magnet project: Technical design report}",
+<<<<<<< HEAD
+      collaboration  = "CMS",
+      year           = "1997",
+      reportNumber   = "CERN-LHCC-97-10",
+      SLACcitation   = "%%CITATION = CERN-LHCC-97-10;%%"
+}
+
+%%%Tracker TDR
+
+@book{Karimäki:368412,
+      author        = "Karimäki, V and Mannelli, M and Siegrist, P and Breuker,
+                       H and Caner, A and Castaldi, R and Freudenreich, K and
+                       Hall, G and Horisberger, R and Huhtinen, M and Cattai, A",
+      title         = "{The CMS tracker system project: Technical Design Report}",
+      publisher     = "CERN",
+      collaboration = "CMS Collaboration",
+      address       = "Geneva",
+      series        = "Technical Design Report CMS",
+      year          = "1997",
+      url           = "https://cds.cern.ch/record/368412",
+}
+
+%%%%%%%%% Tracking System
+@article{Chatrchyan:2014fea,
+      author         = "Chatrchyan, Serguei and others",
+      title          = "{Description and performance of track and primary-vertex
+                        reconstruction with the CMS tracker}",
+      collaboration  = "CMS",
+      journal        = "JINST",
+      volume         = "9",
+      year           = "2014",
+      number         = "10",
+      pages          = "P10009",
+      doi            = "10.1088/1748-0221/9/10/P10009",
+      eprint         = "1405.6569",
+      archivePrefix  = "arXiv",
+      primaryClass   = "physics.ins-det",
+      reportNumber   = "CMS-TRK-11-001, CERN-PH-EP-2014-070",
+      SLACcitation   = "%%CITATION = ARXIV:1405.6569;%%"
+}
+
+%%%ECAL
+
+@article{CMS:1997ema,
+      title          = "{CMS: The electromagnetic calorimeter. Technical design
+                        report}",
+=======
+>>>>>>> 02e061b653239fa73a7208bb9ab00a17e4a23f09
+      collaboration  = "CMS",
+      year           = "1997",
+      reportNumber   = "CERN-LHCC-97-33, CMS-TDR-4",
+      SLACcitation   = "%%CITATION = CERN-LHCC-97-33;%%"
+}
