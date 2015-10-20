@@ -26,7 +26,7 @@ fi
 
 cd "$TMP_DIR"
 cat $BIB_PATTERN > "$BIB_OUT"
-rubber --pdf "$INPUT"
+rubber --warn all --pdf "$INPUT"
 cd ..
 
 if [ -f "$OUTPUT_TMP" ] ; then
