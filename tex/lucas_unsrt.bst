@@ -102,7 +102,7 @@ ENTRY
     eprint
     doi
     url
-    report
+    reportNumber
     collaboration
     SLACcitation
   }
@@ -350,10 +350,10 @@ FUNCTION {format.doi}
      if$
 }
 
-FUNCTION {format.report}
-{ report empty$
+FUNCTION {format.reportNumber}
+{ reportNumber empty$
      { ""}
-     { report}
+     { reportNumber}
      if$
 }
 
@@ -884,9 +884,10 @@ FUNCTION {article}
          format.pages.nopp output
        }
        if$
-       report missing$
-         { format.doi output format.eprint output }
-         { blank.sep format.report output format.doi output format.eprint output }
+       format.doi output format.eprint output
+       journal missing$
+       { format.reportNumber output year output}
+       {}
        if$
     }
     { format.article.crossref output.nonnull
