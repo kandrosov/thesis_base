@@ -1,4 +1,4 @@
-\newcommand{\auxchapter}[1]{ \chapter*{#1} \addcontentsline{toc}{chapter}{#1} }
+\newcommand{\auxchapter}[1]{ \chapter*{#1} \addcontentsline{toc}{chapter}{#1} \markboth{#1}{} }
 \newcommand{\Eq}[2][NaN]{
     \begin{linenomath}\begin{equation}\ifthenelse{\equal{#1}{NaN}}{}{\label{#1}}
     #2
