@@ -4,6 +4,12 @@
     #2
     \end{equation}\end{linenomath} }
 
+\newcommand{\Eqs}[2][NaN]{
+    \begin{linenomath}\begin{align}\ifthenelse{\equal{#1}{NaN}}{}{\label{#1}}
+    #2
+    \end{align}\end{linenomath} }
+
+
 \newcommand{\cmsSymbolFace}{\mathrm}
 \newcommand{\MET}{\ensuremath{E_{\mathrm{T}}\hspace{-1.15em}/\kern0.45em}\xspace}
 \newcommand{\METx}{\ensuremath{E_{\mathrm{x}}\hspace{-1.15em}/\kern0.45em}\xspace}
