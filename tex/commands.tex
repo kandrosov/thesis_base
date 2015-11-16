@@ -1,8 +1,14 @@
-\newcommand{\auxchapter}[1]{ \chapter*{#1} \addcontentsline{toc}{chapter}{#1} }
+\newcommand{\auxchapter}[1]{ \chapter*{#1} \addcontentsline{toc}{chapter}{#1} \markboth{#1}{} }
 \newcommand{\Eq}[2][NaN]{
     \begin{linenomath}\begin{equation}\ifthenelse{\equal{#1}{NaN}}{}{\label{#1}}
     #2
     \end{equation}\end{linenomath} }
+
+\newcommand{\Eqs}[2][NaN]{
+    \begin{linenomath}\begin{align}\ifthenelse{\equal{#1}{NaN}}{}{\label{#1}}
+    #2
+    \end{align}\end{linenomath} }
+
 
 \newcommand{\cmsSymbolFace}{\mathrm}
 \newcommand{\MET}{\ensuremath{E_{\mathrm{T}}\hspace{-1.15em}/\kern0.45em}\xspace}
