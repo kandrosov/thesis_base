@@ -1,6 +1,7 @@
 #!/bin/bash
 
-INPUT="main.tex"
+INPUT="main"
+INPUT_FRN_FILE="${INPUT}-frn.tex"
 TMP_DIR="tmp"
 PDF_DIR="pdf"
 BIB_PATTERN="cite-*.bib"
@@ -25,6 +26,7 @@ if [ -d "$MY_THESIS_DIR" ] ; then
 fi
 
 cd "$TMP_DIR"
+touch "$INPUT_FRN_FILE"
 cat $BIB_PATTERN > "$BIB_OUT"
 rubber --warn all --pdf "$INPUT"
 cd ..
